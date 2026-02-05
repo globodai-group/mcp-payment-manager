@@ -1,5 +1,5 @@
 {
-  "name": "@artik0din/mcp-payment-manager",
+  "name": "globodai-mcp-payment-manager",
   "version": "1.0.0",
   "description": "MCP Server for Payment Management - Secure card storage and crypto wallet management with encryption",
   "main": "dist/index.js",
@@ -13,12 +13,25 @@
     "build": "tsc",
     "prepublishOnly": "npm run build"
   },
-  "keywords": ["mcp", "model-context-protocol", "payment", "crypto", "wallet", "blockchain", "cards", "finance", "encryption", "ai", "llm", "claude"],
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "payment",
+    "crypto",
+    "wallet",
+    "blockchain",
+    "cards",
+    "finance",
+    "encryption",
+    "ai",
+    "llm",
+    "claude"
+  ],
   "author": "Kevin Valfin <kevin@globodai.com>",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/artik0din/mcp-payment-manager.git"
+    "url": "https://github.com/globodai-group/mcp-payment-manager.git"
   },
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.25.3",
@@ -29,5 +42,9 @@
     "typescript": "^5.8.3",
     "tsx": "^4.0.0",
     "@types/node": "^22.0.0"
+  },
+  "homepage": "https://github.com/globodai-group/mcp-payment-manager#readme",
+  "bugs": {
+    "url": "https://github.com/globodai-group/mcp-payment-manager/issues"
   }
 }
