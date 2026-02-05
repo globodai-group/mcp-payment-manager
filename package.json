@@ -1,6 +1,6 @@
 {
   "name": "globodai-mcp-payment-manager",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "MCP Server for Payment Management - Secure card storage and crypto wallet management with encryption",
   "main": "dist/index.js",
   "type": "module",
